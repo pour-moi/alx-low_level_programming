@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * This is a code that outputs text using "puts"
+ * main - Entry point
  *
+ * Code that outputs text using "puts"
+ *
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
