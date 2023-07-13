@@ -11,8 +11,11 @@
 int main(void)
 {
 	char sentence[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	for(int i = 0; sentence[i] != '\0'; i++){
-		putchar(sentence[i]);
+	int i = 0;
+
+	while(sentence[i] != '\0'){
+		putchar(sentence[i]);	
+		i++;
 	}
 
 	return (1);
