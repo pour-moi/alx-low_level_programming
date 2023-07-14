@@ -17,6 +17,6 @@ int main(void)
 		putchar(numbers[i] + '0');
 
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
