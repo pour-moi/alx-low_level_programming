@@ -16,11 +16,11 @@ int main(void)
 
 	for (i = a; i <= z; i++)
 	{
-		if(i==101)
+		if (i == 101)
 		{
 			i++;
 		}
-		if(i==113)
+		if (i == 113)
 		{
 			i++;
 		}
