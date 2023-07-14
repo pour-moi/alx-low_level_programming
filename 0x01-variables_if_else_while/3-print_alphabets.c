@@ -24,7 +24,7 @@ int main(void)
 	{
 		printf("%c", (char)i);
 	}
-	
+
 	printf("\n");
 	return (0);
 }
