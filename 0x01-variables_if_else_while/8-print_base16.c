@@ -18,7 +18,8 @@ int main(void)
 		putchar(numbers[i] + '0');
 
 	}
-	for (i = 0; i < 6; i++){
+	for (i = 0; i < 6; i++)
+	{
 		putchar(letters[i]);
 	}
 	putchar('\n');
