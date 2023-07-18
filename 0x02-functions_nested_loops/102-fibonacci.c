@@ -14,6 +14,8 @@ int main(void)
 	for (i = 3; i <= n; i++)
 	{
 		c = a + b;
+		if (c == 20365011074)
+			break;
 		printf("%ld, ", c);
 		a = b;
 		b = c;
