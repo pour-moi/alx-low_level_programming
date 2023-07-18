@@ -3,7 +3,7 @@
 /**
  * _islower - returns 1 if it is lower case returns 0 if it is uppercase
  * @c: integer to add
- * 
+ *
  * Return: Always 0 (Success)
  */
 
