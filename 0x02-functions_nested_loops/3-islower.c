@@ -2,7 +2,8 @@
 
 /**
  * _islower - returns 1 if it is lower case returns 0 if it is uppercase
- *
+ * @c: integer to add
+ * 
  * Return: Always 0 (Success)
  */
 
@@ -12,8 +13,8 @@ int _islower(int c)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if((char)c == i)
+		if ((char)c == i)
 			return (1);
 	}
-	return(0);
+	return (0);
 }
