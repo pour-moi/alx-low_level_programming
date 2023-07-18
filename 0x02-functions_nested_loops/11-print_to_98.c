@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * add - adds two numbers
+ * print_to_98 - adds two numbers
  *@n: integer to be added
  *
  * Return: Always 0 (Success)
@@ -18,10 +18,10 @@ if (n > 99)
 	{
 		if (i == 98)
 		{
-			printf("%d",i);
+			printf("%d", i);
 			break;
 		}
-			printf("%d, ",i);  
+			printf("%d, ", i);
 		}
 	}
 
@@ -29,10 +29,10 @@ if (n > 99)
 	{
 		if (i == 98)
 		{
-			printf("%d",i);
+			printf("%d", i);
 			break;
 		}
-		printf("%d, ",i);
+		printf("%d, ", i);
 	}
 	printf("\n");
 }
