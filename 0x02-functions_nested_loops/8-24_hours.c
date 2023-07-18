@@ -3,7 +3,6 @@
 
 /**
  * jack_bauer - hours
- * 
  *
  * Return: Always 0 (Success)
  */
@@ -27,7 +26,7 @@ for (i = 0; i < 10; i++)
 				_putchar(l + '0');
 				_putchar('\n');
 				if (i == 2 && j == 3 && k == 5 && l == 9)
-					exit(1);		
+					exit(1);
 			}
 		}
 	}
