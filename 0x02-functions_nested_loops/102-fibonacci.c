@@ -11,8 +11,6 @@ int main(void)
 	int n = 50, i;
 	long int a = 0, b = 1, c;
 
-	printf("%ld, %ld", a, b);
-
 	for (i = 3; i <= n; i++)
 	{
 		c = a + b;
