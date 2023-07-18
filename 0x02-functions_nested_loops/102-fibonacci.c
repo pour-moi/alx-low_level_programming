@@ -15,7 +15,11 @@ int main(void)
 	{
 		c = a + b;
 		if (c == 20365011074)
+		{
+			printf("%d", c);
 			break;
+		}
+
 		printf("%ld, ", c);
 		a = b;
 		b = c;
