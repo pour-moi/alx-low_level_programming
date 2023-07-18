@@ -16,7 +16,7 @@ int main(void)
 		c = a + b;
 		if (c == 20365011074)
 		{
-			printf("%d", c);
+			printf("%ld", c);
 			break;
 		}
 
