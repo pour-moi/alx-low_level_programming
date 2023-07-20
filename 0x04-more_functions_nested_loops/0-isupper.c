@@ -2,6 +2,7 @@
 
 /**
  * _isupper - checks if it is capital letter
+ * @c: integer to pass
  *
  * Return: 0
 */
