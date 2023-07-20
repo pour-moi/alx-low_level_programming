@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints fizz if it is multiple of 3 prints buzz if it is multiplt of 5 prints 
+ * main - prints fizz for multiple of 3 prints buzz
+ * for multiplt of 5 prints
  * fizz buzz which are multiples of both
- * 
  *
  * Return: 0
 */
@@ -29,8 +29,7 @@ int main(void)
 			printf("FizzBuzz ");
 			continue;
 		}
-		
 		printf("%d ", i);
 	}
-	
+
 }
