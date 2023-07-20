@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints line diagonally
+ * print_square - prints square
  * @n:integer to pass
  *
  * Return: 0
