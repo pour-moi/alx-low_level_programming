@@ -1,30 +1,37 @@
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - prints fizz for multiple of 3 prints buzz
+ * for multiplt of 5 prints
+ * fizz buzz which are multiples of both
  *
- * Description: prints FizzBuzz
- *
- * Return: void
- */
+ * Return: 0
+*/
+
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = 1; n <= 100; n++)
+	for (i = 1; i <= 100; i++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
-			printf("FizzBuzz");
-		else if (n % 5 == 0)
-			printf("Buzz");
-		else if (n % 3 == 0)
-			printf("Fizz");
-		else
-			printf("%i", n);
 
-		if (n < 100)
-			printf(" ");
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf("FizzBuzz ");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("Buzz ");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz ");
+		}
 		else
-			printf("\n");
+			printf("%d ", i);
 	}
+
+	printf("\n");
+
 	return (0);
 }
