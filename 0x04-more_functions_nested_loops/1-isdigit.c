@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - checks if it is capital letter
+ * _isdigit - checks if it is capital letter
  * @c: integer to pass
  *
  * Return: 0
