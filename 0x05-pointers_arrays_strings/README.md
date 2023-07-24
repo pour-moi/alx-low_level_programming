@@ -6,7 +6,7 @@ A pointer is a variable that stores the memory address of another variable. Poin
 ```c
 int x = 5;
 int *p = &x;
-
+```
 Pointers can be used to indirectly access and modify the value of a variable.
 ```c
 *p = 10; // x is now 10
