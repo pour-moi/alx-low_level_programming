@@ -21,11 +21,6 @@ void print_rev(char *s)
 	for (i = size; i >= 0; i--, s--)
 	{
 		_putchar(*s);
-
-		if (i == 0)
-		{
-			_putchar('\n');
-		}
 	}
 
 }
