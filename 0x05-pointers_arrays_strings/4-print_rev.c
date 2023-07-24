@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - prints out string
- *@str: pointer to pass
+ * print_rev - reverses string
+ *@s: pointer to pass
  *
  * Return: Always 0.
  */
@@ -21,7 +21,11 @@ void print_rev(char *s)
 	for (i = size; i >= 0; i--, s--)
 	{
 		_putchar(*s);
+
+		if (i == 0)
+		{
+			_putchar('\n');
+		}
 	}
-	_putchar('\n');
 
 }
