@@ -23,8 +23,10 @@ void puts_half(char *str)
 		half_size = size / 2;
 	}
 	else
+	{
 		half_size = (size - 1) / 2;
-	
+		half_size += 1;
+	}
 
 	for (i = half_size; i < size; i++)
 	{
