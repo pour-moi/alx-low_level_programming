@@ -41,10 +41,10 @@ Number of arguments: 4
 Arguments:
 
 ```bash
-    ./myprogram
-    arg1
-    arg2
-    arg3
+./myprogram
+arg1
+arg2
+arg3
 ```
 
 As you can see, the first argument is always the name of the program itself
