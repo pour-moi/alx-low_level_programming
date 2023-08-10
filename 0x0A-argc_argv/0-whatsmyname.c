@@ -1,23 +1,17 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints command line 
  * @argc: counts
- * @argv: string
+ * @argv: array
  *
- * Return - 0 Always
+ * Return - Always 0
  * /
 
 int main(int argc, char *argv[])
 {
-	int i;
-
-	for(i = 0; i < argc; i++)
-	{
-		printf("%s", argv[i]);
-	}
-
-	printf("\n");
-
+	printf("%s\n",argv);
+	
 	return(0);
 }
