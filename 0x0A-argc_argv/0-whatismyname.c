@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - prints command line 
+ *
+ * @argc: counts
+ * @argv: string
+ * /
+
 int main(int argc, char *argv[])
 {
 	int i;
