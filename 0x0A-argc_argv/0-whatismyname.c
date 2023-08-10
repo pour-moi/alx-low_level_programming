@@ -2,9 +2,10 @@
 
 /**
  * main - prints command line 
- *
  * @argc: counts
  * @argv: string
+ *
+ * Return - 0 Always
  * /
 
 int main(int argc, char *argv[])
