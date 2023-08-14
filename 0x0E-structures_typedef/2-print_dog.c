@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "dog.h"
 
+/**
+* print_dog - pritns passed name
+* @d: struct pointer
+*/
+
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
@@ -12,6 +17,6 @@ void print_dog(struct dog *d)
 	printf("Age: %f\n", d->age);
 	if (d->owner == NULL)
 		printf("Owner: %p\n", d->owner);
-	else 
+	else
 		printf("Owenr: %s\n", d->owner);
 }
